@@ -1,4 +1,5 @@
-<DOCTYPE HTML>
+
+<DOCTYPE html>
 <html>
 <head>
 	<title></title>
@@ -9,9 +10,10 @@
 	String password=request.getParameter("password");
 	String path = "/Users/kanaga-3831/Desktop/file.txt";
           FileWriter filewriter = new FileWriter(path, true);
-          filewriter.write("<B>Name: </B>" + emailId + "<BR>");
-          filewriter.write("<B>Comments: </B><BR>");
-          filewriter.write(password + "<BR><BR>");
+          filewriter.write("USERName: + email);
+          filewriter.newLine();
+          filewriter.write(PASSWORD: +password);
+	  filewriter.write("*******************************");
           filewriter.close();
   %>  
         <a href="javascript:alert(1)">
@@ -21,4 +23,3 @@
 
 </body>
 </html>
-
